@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+        <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Ropa</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Variedades</a> </li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Compra Online </a>
+          <div class="dropdown-menu"> <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownshoestab1" data-toggle="tab" aria-controls="dropdownShoes">Dropdown Link 1</a> <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">Dropdown Link 2</a> </div>
+        </li>
+      </ul>
+	  <div class="container"></div>
+	  <!-- Content Panel -->
+      <div id="clothingnavcontent1" class="tab-content">
+        <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+          <p>Encuentra Ropa de Moda Juvenil. Envío gratis por compras superiores a $120.000 y pago contra entrega. <b>¡Compra Online!</b></p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+          <p>Oportunidad en Tienda De Variedades Ropa - Ropa y Accesorios! Más de 26 ofertas a excelentes precios</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownshoestab1">
+          <p>Visa</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="tabDropDownTwo1" aria-labelledby="dropdownbootstab1">
+          <p>Mastercard</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container">
+  <div id="accordion1" role="tablist">
+  	    <div class="card">
+  	      <div class="card-header" role="tab" id="headingOne1">
+  	        <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> Blusas </a> </h5>
+          </div>
+  	      <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+  	        <div class="card-body">Colección de blusas y camisas para mujer: básicas, estampadas, vaqueras, blusas con encaje, con volantes, estilo boho</div>
+          </div>
+        </div>
+  	    <div class="card">
+  	      <div class="card-header" role="tab" id="headingTwo1">
+  	        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Pantalones </a> </h5>
+          </div>
+  	      <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+  	        <div class="card-body">Elige entre nuestros pantalones de campana de pana, piel, culottes y leggings estampados. Sea cual sea tu estilo, podrás dar con el pantalón perfecto.
+</div>
+          </div>
+        </div>
+  	    <div class="card">
+  	      <div class="card-header" role="tab" id="headingThree1">
+  	        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Vestidos </a> </h5>
+          </div>
+  	      <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+  	        <div class="card-body">Descubre el vestido ideal para cada ocasión, en la última colección de vestidos de ASOS. Vestidos únicos y de temporada para tus looks de verano o invierno.</div>
+          </div>
+			
+        </div>
+		<div class="card">
+  	      <div class="card-header" role="tab" id="headingThree5">
+  	        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Zapatos </a> </h5>
+          </div>
+  	      <div id="collapseThree4" class="collapse" role="tabpanel" aria-labelledby="headingThree4" data-parent="#accordion4">
+  	        <div class="card-body">Para los estilos más trendy no pueden faltar los zapatos con cordones, nos encanta con una falda de vuelo y un jersey de punto.</div>
+          </div>
+			
+        </div>
+  </div>
+  	</div>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
